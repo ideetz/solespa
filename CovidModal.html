@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Load Covid</title>
+</head>
+<link href="CSS/modal.css" rel="stylesheet" type="text/css">
+<body>
+
+<div class="overlay">
+
+<div class="modal">
+
+<div class="close_modal">X</div>
+
+<h4>Here's how we're keeping you safe.</h4>
+
+<p>Our number one priority is keeping you and our staff safe. Our staff   wear masks and we require all guests to do the same. We are  limiting the number of people in the spa at the same time and are performing  deep cleaning of all stations between each client. While we still allow walk-in clients as space allows, we encourage you to make an appointment.</p>
+
+</div>
+
+<!-- end modal -->
+
+</div>
+
+<!-- end overlay -->
+
+<script>
+
+var overlay = document.querySelector('.overlay');
+
+var close_modal = document.querySelector('.close_modal');
+
+setTimeout(function(){
+
+overlay.style.opacity = 1;
+
+},
+
+500);    
+
+close_modal.onclick = function() {
+
+overlay.style.opacity = 0;
+
+}
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+@charset "utf-8";
+body {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: x-large;
+    margin-top: 0px;
+    padding-top: 30px;
+    color: #171717;
+    padding-bottom: 50px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url(../images/background2.jpg);
+}
+
+
+
+body header {
+    text-align: center;
+    float: none;
+    margin-left: 0px;
+    margin-top: 75px;
+    left: auto;
+    right: auto;
+    font-size: 60px;
+    font-family: euphoria-script;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: px;
+    margin-right: 0px;
+}
+
+
+body p {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: italic;
+    font-weight: 400;
+    text-decoration-color: #000000;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#carouselExampleIndicators1 {
+    margin-top: 80px;
+}
+
+
+
+h2 {
+    font-size: 1em;
+}
+h2 {
+    font-family: euphoria-script;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+body header {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+button {
+	outline-color: #0BFF0B;
+}
+
+
+
+body nav {
+    text-decoration: none;
+}
+ul li a {
+    text-decoration: none;
+    color:#D181A7;
+}
+.navlist {
+    list-style-type: none;
+}
+.navlistitem   {
+    float: left;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+	
+}
+
+#navbarSupportedContent1 .navbar-nav.mr-auto .nav-item {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+	
+}
+
+.navbar-nav.mr-auto .nav-item .nav-link {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    text-shadow: 0px 0px #000000;
+    opacity: 1;
+    color: #535353;
+}
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-transparent #navbarSupportedContent1 .navbar-nav.mr-auto {
+    word-spacing: 0px;
+    padding-left: 0px;
+}
+.container{
+  text-align: center;
+  color: #2C2C2C;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" ;
+  font-style: italic;
+  font-weight: 400;
+  font-size: large;
+}
+.subject{
+	height: 150px;
+	width: 500px;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: .25;
+    left: 0;
+    padding: 0;
+    height: 50px;
+    background: transparent;
+    text-align: center;
+    color: #2C2C2C;
+    font-family: euphoria-script;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.manimg {
+	float: right;
+	margin-right: 100px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.rounded-circle.img-fluid {
+    text-shadow: 0px 0px;
+    background-color: #6D6D6D;
+    -webkit-box-shadow: inset 0px 0px #818181;
+    box-shadow: inset 0px 0px #818181;
+}
+
+img.group{
+	width: 400px;
+	height:auto;
+}
+
+@media screen and (max-width:445px){
+img.group {
+	width:200px;
+	
+}
+
+}
+.form {
+	width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.apt {
+  margin-right: 75px;
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.apt:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+}
